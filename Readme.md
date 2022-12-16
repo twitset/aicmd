@@ -1,5 +1,7 @@
 # aicmd 
 
+Command line tool for talking to api.openai.com
+
 Usage: aicmd [options] [command]
 
 Options:
