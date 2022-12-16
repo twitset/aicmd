@@ -7,7 +7,7 @@ If go is not installed, install it:
 > sudo apt install golang
 
 in the cmd directory run:
-> go build
+> go build -o aicmd cmd.go
 > chmod +x cmd
 
 put your API token in the config file and set other parameters if you want
