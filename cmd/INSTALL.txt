@@ -1,0 +1,44 @@
+On debian:
+
+> git clone https://github.com/twitset/aicmd.git
+> cd aicmd/cmd
+
+If go is not installed, install it:
+> sudo apt install golang
+
+in the cmd directory run:
+> go build
+> chmod +x cmd
+
+put your API token in the config file and set other parameters if you want
+
+Usage:
+./cmd "Hello World"
+
+
+
+# Downloading and Installing Go Language
+
+Go is an open source programming language developed by Google. It is a compiled, statically typed language designed for building large software systems.
+
+## Requirements
+
+Before installing Go, make sure you have the following requirements:
+
+- Operating system: Windows, Mac OS X, or Linux
+- Processor: x86 or x86-64
+- Memory: at least 64MB of RAM
+
+## Downloading Go
+
+1. Go to the official Go website: https://golang.org/
+2. Click the "Downloads" button
+3. Choose the appropriate installer for your operating system
+4. Follow the instructions to complete the download and installation
+
+## Setting Up Your Environment
+
+1. Once you have downloaded and installed Go, you will need to configure your environment.
+2. Open a terminal window and set the GOPATH environment variable to a directory where you would like to store your Go code.
+3. Set the GOROOT environment variable to the directory where your Go installation is located.
+4. Add the bin directory of your Go installation to your PATH environment variable.
