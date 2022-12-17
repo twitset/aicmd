@@ -9,7 +9,7 @@ Options:
 
 Example Commands:
     ./aicmd "What can you do on the command line?"
-    or
+    <br>or<br>
     ./aicmd -max_tokens -temperature 0.6 "What can you do on the command line?"
 
 Configuration:
